@@ -1,0 +1,31 @@
+body{
+  text-align:center;
+  background-color:darkcyan;
+}
+#img1{
+  width:260px;
+}
+.links:hover {
+    background-color:black;
+}
+
+.links {
+    float: left;
+    color: orange;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family:fantasy;
+    font-size: 10px;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 1px;
+    z-index: 10;
+    cursor: pointer;
+}
